@@ -1,0 +1,13 @@
+.top-container {
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+
+.web-branding {
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+}
