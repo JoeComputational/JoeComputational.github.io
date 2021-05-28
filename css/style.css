@@ -281,7 +281,7 @@ nav {
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-attachment: fixed !important;
-    background: url('images/bg1.jpg');
+    background: url('../images/bg1.jpg');
 }
 
 .title2 {
@@ -370,52 +370,55 @@ footer {
         transform: skew( -15deg, 0deg );
     }
 
-    @media(max-width:767px) {
 
 
-        .align-30 {
-            width: 100%;
-        }
-    
-        .align-70 {
-            width: 100%;
-        }
-    
-        .container{
-            padding:0px 20px
-        }
-    
-        .list{
-            padding-left:0;
-            text-align:center
-        }
-    
-    
-        .space{
-            padding:0px 0px;
-        }
-    
-    
-        nav ul {
-            text-align: center;
-        }
-    
-            nav ul a {
-                padding: 11px 5px;
-                font-size: 13px;
-            }
-    
-    
-        .overlay {
-            padding: 30px 15px 60px 15px;
-        }
-    
-            .overlay h1 {
-                font-size: 45px;
-            }
-    
-        .heading {
-            font-size: 37px;
-        }
+
+
+@media(max-width:767px) {
+
+
+    .align-30 {
+        width: 100%;
     }
-    
+
+    .align-70 {
+        width: 100%;
+    }
+
+    .container{
+        padding:0px 20px
+    }
+
+    .list{
+        padding-left:0;
+        text-align:center
+    }
+
+
+    .space{
+        padding:0px 0px;
+    }
+
+
+    nav ul {
+        text-align: center;
+    }
+
+        nav ul a {
+            padding: 11px 5px;
+            font-size: 13px;
+        }
+
+
+    .overlay {
+        padding: 30px 15px 60px 15px;
+    }
+
+        .overlay h1 {
+            font-size: 45px;
+        }
+
+    .heading {
+        font-size: 37px;
+    }
+}
