@@ -380,7 +380,15 @@ footer p {
 }
 
 @media (max-width: 767px) {
+  .mbl-30 {
+    padding-top: 30px;
+  }
+  
   .align-30 {
+    width: 100%;
+  }
+
+  .align-50 {
     width: 100%;
   }
 
