@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
 
 body {
@@ -32,6 +32,10 @@ h3 {
 
 h4 {
   font-size: 19px;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .list {
@@ -260,6 +264,10 @@ nav ul a:hover {
   color: #cdcccc;
 }
 
+nav ul a.active {
+  background: #646464;
+}
+
 .row {
   padding: 0px 18px;
   width: 100%;
@@ -335,6 +343,11 @@ footer p {
   float: left;
 }
 
+.align-50 {
+  width: 50%;
+  float: left;
+}
+
 .align-70 {
   width: 65%;
   float: left;
@@ -360,8 +373,22 @@ footer p {
   transform: skew(-15deg, 0deg);
 }
 
+.cen-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
 @media (max-width: 767px) {
+  .mbl-30 {
+    padding-top: 30px;
+  }
+  
   .align-30 {
+    width: 100%;
+  }
+
+  .align-50 {
     width: 100%;
   }
 
