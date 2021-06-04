@@ -119,6 +119,7 @@ h4 {
 .btn {
   background: none;
   text-decoration: none;
+  text-align: center;
   color: #555;
   padding: 1rem 3.2rem;
   box-shadow: none;
