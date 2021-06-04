@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
 
-html{
+html {
   font-size: 10px;
 }
 
@@ -261,7 +261,6 @@ header h2 {
 }
 
 @media (max-width: 600px) {
-
   header h1 {
     font-size: 3.8rem;
   }
@@ -269,7 +268,6 @@ header h2 {
   header h2 {
     font-size: 1.8rem;
   }
-
 }
 
 .space {
@@ -304,14 +302,14 @@ nav ul a {
   text-transform: uppercase;
 }
 
-label, input {
+label,
+input {
   display: none;
 }
 
 /* responsive navbar */
 
 @media (max-width: 892px) {
-
   label {
     display: block;
     position: absolute;
@@ -355,7 +353,6 @@ label, input {
   nav ul li:hover {
     background-color: #363636;
   }
-
 }
 
 /* responsive navbar */
@@ -545,49 +542,45 @@ footer p {
   }
 }
 
-  @media (max-width: 767px) {
-    .overlay {
-      padding: 8rem 0;
-    }
-
-    .overlay h1 {
-      font-size: 3rem;
-    }
-
-    .overlay h2 {
-      letter-spacing: .5px;
-      line-height: 1.4;
-    }
-
-    .text-details {
-      max-width: 40rem;
-    }
-
+@media (max-width: 767px) {
+  .overlay {
+    padding: 8rem 0;
   }
 
-    @media (max-width: 600px) {
-
-    .container {
-      padding: 0;
-     }
-
-     .row {
-      padding: 0 1rem;
-     }
-
-    .overlay h1 {
-      /*font-size: 2.5rem;*/
-      margin-bottom: 2rem;
-    }
-
-    .text-details {
-      max-width: 100%;
-      padding: 0 .1rem;
-      text-align: center;
-    }
-
+  .overlay h1 {
+    font-size: 3rem;
   }
 
+  .overlay h2 {
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+  }
+
+  .text-details {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0;
+  }
+
+  .row {
+    padding: 0 1rem;
+  }
+
+  .overlay h1 {
+    /*font-size: 2.5rem;*/
+    margin-bottom: 2rem;
+  }
+
+  .text-details {
+    max-width: 100%;
+    padding: 0 0.1rem;
+    text-align: center;
+  }
+}
 
 .con-100 {
   max-width: 110rem;
@@ -621,8 +614,6 @@ footer p {
   text-align: justify;
 }
 
-
-
 .con-widgets {
   display: grid;
   grid-template-columns: 1fr 30rem;
@@ -653,7 +644,6 @@ footer p {
 }
 
 @media (max-width: 967px) {
-
   .con-widgets {
     grid-column-gap: 0;
     grid-template-columns: 1fr;
@@ -681,13 +671,10 @@ footer p {
 }
 
 @media (max-width: 500px) {
-
   .con-widgets .align-70 img {
     height: 25rem;
   }
 }
-
-
 
 .marad {
   display: block;
