@@ -4,6 +4,7 @@
 html {
   font-size: 10px;
 }
+/*Media reactivity for different screen sizes*/
 
 @media (max-width: 767px) {
   html {
@@ -29,6 +30,7 @@ html {
   }
 }
 
+/*Body styling for all pages - this is the theme setting*/
 body {
   padding: 0;
   margin: 0;
@@ -90,6 +92,7 @@ h4 {
   border-bottom: 1px solid #eeeeee;
 }
 
+/*sidebar styling for tools.html pages*/
 .right-sidebar h3 {
   margin-bottom: 0px;
 }
@@ -116,6 +119,7 @@ h4 {
   display: inline-block;
 }
 
+/*Button styling for news and tools*/
 .btn {
   background: none;
   text-decoration: none;
@@ -275,6 +279,7 @@ header h2 {
   padding: 0px 5rem;
 }
 
+/*Original creation for navbar styling*/
 nav {
   background: #222;
   padding: 2rem 0;
